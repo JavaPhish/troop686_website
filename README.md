@@ -1,2 +1,2 @@
 # troop686_website
-not if i edit it first cunt
+This README will be useless for like a week until we actually put something useful into it :)
