@@ -1,2 +1,2 @@
 # troop686_website
-not if i edit it first cunt
+Created by Carter Clements for Troop 686 in Brandon, FL
