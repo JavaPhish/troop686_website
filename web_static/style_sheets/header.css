@@ -1,0 +1,56 @@
+/*
+ * Main header CSS, setup flexbox, flex wrap, background colors, border and padding
+ */
+.header {
+    /*background-image: url('../images/troop_logo_cleaned.png');*/
+    background-color: rgb(17, 75, 95);
+
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    border-bottom: 1px solid #14171B;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    padding-bottom: 5px;
+
+    text-align: center;
+}
+
+/*
+ * Handles the wrapping and stylizing of the header text
+ */
+.vert_text {
+    order: 2;
+    flex: 1;
+
+    align-content: flex-start;
+    min-width: 450px;
+
+    height: 100%;
+    text-align: center;
+    color: black;
+    text-shadow: .5px 1px rgb(198, 218, 191);
+}
+
+/*
+ * The image, just flex stuff
+ */
+.logo {
+    flex: 1;
+    order: 1;
+}
+
+/*
+ * Divided the flex by thirds to help center the text better
+ */
+.placeholder {
+    flex: 1;
+    order: 3;
+    width: 0px;
+}
+
+

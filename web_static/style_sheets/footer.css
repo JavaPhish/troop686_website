@@ -1,0 +1,14 @@
+/*
+ * Footer
+ * Formatting and stuff for the footer
+ *
+ * NOTE: Theres supposed to be a footer png provided by the church that lets us host there
+ *
+ */
+footer {
+    background-color: rgb(17, 75, 95);
+    border-top: 1px solid black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-top: 25px;
+}

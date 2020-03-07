@@ -1,0 +1,49 @@
+/*
+ * This flex box contains (in row form) the "Come join us" text
+ * and the "where you can find us" text/gmaps location embed
+ */
+ .join_us_flex {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+}
+
+/*
+ * This is the left flex box in the "Join us flex".
+ */
+.text_fl {
+    align-self: center;
+    text-align: center;
+    flex: 1;
+    order: 1;
+    padding: 40px;
+}
+
+.line {
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+/*
+ * "Where you can find us" flex, is the right side of the "Join us flex"
+ * Also home to the google map embed 
+ */
+.gmap_fl {
+    flex: 1;
+    order: 2;
+    background-color: rgb(26, 147, 111);
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    text-align: center;
+    min-width: 300px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

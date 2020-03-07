@@ -1,0 +1,47 @@
+/*
+ * body_flex.css
+ *
+ * This controls the flex elements/order of all the main elements
+ *
+ */
+
+
+/* General flex and alignment */
+.body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/* 
+ * Controls the top "Why our troop is a perfect fit" bar
+ * (Pretty much just basic padding and text alignment)
+ */
+.about_us {
+    order: 1;
+}
+
+/*
+ * This flex box contains (in row form) the "Come join us" text
+ * and the "where you can find us" text/gmaps location embed
+ */
+.join_us_flex {
+    flex: 1;
+    order: 2;
+}
+
+/*
+ * Flex order for pictures
+ */
+.pictures {
+    order: 3;
+}
+
+/*
+ * Still WIP but its the calender
+ */
+.calender {
+    flex: 1;
+    order: 4;
+}
+

@@ -1,0 +1,11 @@
+/* 
+ * Controls the top "Why our troop is a perfect fit" bar
+ * (Pretty much just basic padding and text alignment)
+ */
+ .about_us {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+/*
+ * pictures.css
+ *
+ * Styling and internal flex box stuff for the gallery/picture meme
+ */
+
+ .pictures {
+     text-align: center;
+     border-bottom: 1px dashed black;
+     margin-bottom: 20px;
+ }
